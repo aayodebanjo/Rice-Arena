@@ -1,0 +1,233 @@
+@import url(./fonts.css);
+body, html {
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+    color: aliceblue; 
+    margin-right: 10%;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin-right: 50%;
+  }
+  
+  nav h1 {
+    padding-left: 3%;
+    font-size: 2.5rem;
+   
+    font-family: 'Festive', cursive;
+  }
+  
+  nav ul {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 1% 10% 0 0; 
+    height: 100%;
+    align-items: center;
+  }
+  .nav-item {
+    margin: 0 0 0 5%;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #000000;
+    transition: 300ms ease;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+
+  .head{
+    
+    font-weight: bolder;
+    font-size: small;
+    color: aliceblue; 
+   
+  }
+  .h1{
+    margin-left: 50%;
+  }
+  
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 40px;
+    max-width: 500px;
+    padding: 16px;
+    background-color: #04AA6D;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 400px;
+    border-top-color: #ba1717;
+    margin-top: 5%;
+  }
+  
+  /* Full-width input fields */
+    input[type=number], input[type=number] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #e0b945;
+    border-radius: 10px;
+  }
+  
+  input[type=text]:focus, input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #e0b945;
+    border-right: 10px;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #ba1717;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  
+  }
+  #customers {
+    
+    font-family:Apparel Display;
+    border-collapse: collapse;
+    width: 70%;
+    font-size: 20px;
+    margin: 50px;
+  }
+  
+  #customers td, #customers th {
+    border: 0pt solid #ddd;
+    padding: 8px;
+   
+    
+  }
+  
+  #customers tr:nth-child(even){background-color: #e0b945;}
+  
+  #customers tr:hover {background-color: #04AA6D;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 30px;
+    
+  }
+  #testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Festive', cursive;
+    font-size: larger;
+    font-size: 2.5rem;
+    margin-left: 140px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+  }
+  
+  .testimonial {
+    flex-basis: 10%;
+    margin-bottom: 5rem;
+  }
+  
+  .testimonial img {
+    width: 20%;
+  }
+  
+  .testimonial p {
+    padding-right: 6rem;
+  }
+  
+  #categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  #categories h2{
+    margin-bottom: 2rem;
+    color: #04AA6D;
+  }
+  
+  .category-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: #e0b945;
+    border-radius: 10px;
+    width: 110%;
+    height: 275px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 30px;
+  }
+  
+  .category-container .meal-item{
+    flex-basis: 5%;
+    margin-bottom: 5rem;
+    margin-top: 50px;
+    margin-left: 35px;
+    align-items: center;
+
+  }
+  
+  #categories>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #categories>ul li {
+    margin: 0 2rem;
+  }
+  
+  #categories>ul li:nth-child(3) {
+    color: var(--primary-color);
+  }
+  

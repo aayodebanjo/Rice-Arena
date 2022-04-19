@@ -1,0 +1,29 @@
+div.scrollmenu {
+    background-color: rgb(126, 20, 20);
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: space-between;
+    
+  }
+  
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+div.h1 {
+     padding-left: 3%;
+     font-size: 3.5rem;
+     margin: 0;
+     font-family: 'Festive', cursive;
+     color: white;
+}
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(240, 227, 227);
+  }
